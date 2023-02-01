@@ -1,0 +1,8 @@
+.illustrationDiv{
+    width: 471px;
+    height:509px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+
+}
