@@ -8,7 +8,7 @@ const Container = () => {
   return (
     <div className={styles.container}>
       <Vector />
-      <div>
+      <div className={styles.flexBox}>
         <h1>FAQ</h1>
         <Item />
       </div>

@@ -16,7 +16,7 @@ const handleChange = (item) => {
   return (
     DATAS.map((data) => {
         return (
-        <div onClick={() => handleChange(data.id)}>
+        <div onClick={() => handleChange(data.id)} key={Math.random() * Math.random() * Math.random()}>
             <p className={isShow === data.id ? `${styles.active}`: `${styles.text}`}>{data.title}</p>
 
             {isShow === data.id? <p className={styles.text}>{data.content}</p> : null}

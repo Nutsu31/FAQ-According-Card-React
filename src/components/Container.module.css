@@ -4,4 +4,28 @@
     border-radius: 23px;
     background-color: white;
     display: flex;
+    justify-content: space-between;
+}
+
+.flexBox {
+    width: 350px;
+    height: 100%;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-direction: column;
+}
+
+@media(max-width:950px){
+    .container{
+        width: 527px;
+        height: 636px;
+        flex-direction: column;
+
+    }
+    .flexBox{
+        width: 100%;
+        align-items: center;
+        justify-content: flex-start;
+    }
 }
